@@ -1,9 +1,7 @@
 # ResearchPoster
-Climate change affects human migration, often subtly. While extreme events like hurricanes can directly displace people, other factors like prolonged droughts can indirectly influence migration decisions. Although not the primary cause of migration, climate has historically shaped settlement patterns and continues to do so.
+Climate change influences how people move, whether through big events like hurricanes or longer-term factors like droughts. Over time, it's played a role in where people choose to live.
 
-- Measure large-scale human migrations post-climate disasters through satellite imagery.
-- Use Deep learning techniques to detect migration trends linked to climate events.
-- Help make better plans to support those affected by climate changes.
+We want to use satellite images to track how people move after climate disasters, using advanced technology to spot patterns linked to climate events. This helps us make better plans to support those facing the impacts of climate change.
 
 Our data collection involves two types of information: first, satellite remote sensing imagery that shows population movement over time; second, historical climate data specific to the region and time of migration.
 
@@ -17,7 +15,4 @@ Simultaneously, we process the same input images in the **Transformer Branch** 
 
 By combining local and global features, we input the result into a multilayer perceptron (a fully connected network). Subsequently, we generate predictions using the SoftMax function. These predictions can be visualized using time series plots or heatmaps, revealing population movement following a specific climate event.
 
-- Satellite imagery will reveal the scale and direction of population movements post-disaster.
-- Identify spatial patterns (Signal) that correlate with climate change impacts.
-- Our model will uncover migration trends and their correlation with specific climate events.
-- Provide insights to create effective support for climate-affected populations.
+Satellite images help us see where people go after disasters, showing patterns related to climate impacts. Our model finds trends in migration tied to specific climate events, giving us insights to better support communities affected by climate change.
